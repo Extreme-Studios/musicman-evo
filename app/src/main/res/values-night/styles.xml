@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MusicmanEvo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/walkman_black</item>
+        <item name="colorPrimary">@color/walkman_orange</item>
+        <item name="colorPrimaryVariant">@color/walkman_black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/walkman_orange</item>
+        <item name="colorSecondaryVariant">@color/walkman_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+</resources>

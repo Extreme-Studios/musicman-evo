@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/walkman_black"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/menu_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Item"
+        android:layout_centerVertical="true"
+        android:letterSpacing="0.05"/>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/ic_media_play"
+        android:tint="@color/walkman_orange"
+        android:layout_centerVertical="true"
+        android:alpha="0.5"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

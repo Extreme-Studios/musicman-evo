@@ -1,0 +1,2 @@
+-keep class com.extremestudios.musicmanevo.** { *; }
+-keep class androidx.media.** { *; }

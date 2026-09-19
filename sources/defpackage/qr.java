@@ -1,0 +1,6 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface qr {
+    boolean a(ur urVar);
+}

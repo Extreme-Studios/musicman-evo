@@ -1,0 +1,9 @@
+package defpackage;
+
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class j02 {
+    public final AtomicBoolean a = new AtomicBoolean(false);
+    public i02 b;
+}

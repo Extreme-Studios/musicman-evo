@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/walkman_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.extremestudios.musicmanevo.BackgroundPatternView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="@color/walkman_grey"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_menu_revert"
+                android:tint="@color/neon_purple"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/neon_purple"
+                android:id="@+id/tv_song_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL SONGS"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <ListView
+            android:id="@+id/song_listview"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/walkman_light_grey"
+            android:dividerHeight="1dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MusicmanEvo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/walkman_black</item>
+        <item name="colorPrimary">@color/neon_purple</item>
+        <item name="colorPrimaryVariant">@color/walkman_black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/neon_purple</item>
+        <item name="colorSecondaryVariant">@color/neon_purple</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.MusicmanEvo.NoActionBar" parent="Theme.MusicmanEvo">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
